@@ -57,3 +57,4 @@ bboxes = torch.FloatTensor(
      [220, 220, 320, 330]])
 
 # dev2希望的冲突
+# dev 做的修改
