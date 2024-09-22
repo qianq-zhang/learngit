@@ -49,3 +49,5 @@ def nms(bboxes, scores, threshold):
             break
         order = order[ids + 1]
     return torch.LongTensor(keep)
+
+# 生成一些随机的数据
