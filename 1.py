@@ -51,3 +51,7 @@ def nms(bboxes, scores, threshold):
     return torch.LongTensor(keep)
 
 # 生成一些随机的数据
+bboxes = torch.FloatTensor(
+    [[100, 100, 210, 210],
+     [250, 250, 420, 420],
+     [220, 220, 320, 330]])
